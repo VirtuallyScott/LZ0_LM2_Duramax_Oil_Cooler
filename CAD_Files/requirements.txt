@@ -1,0 +1,30 @@
+# ============================================================
+# requirements.txt — CAD_Files supporting packages
+# ============================================================
+#
+# Install into the project venv:
+#   pip install -r requirements.txt
+#
+# NOTE: FreeCAD is NOT pip-installable.
+# Its geometry kernel (.so modules) is compiled against the
+# Python bundled inside the app (currently 3.11); installing
+# it via pip into a different Python venv will fail with an
+# ABI mismatch.
+#
+# FreeCAD MUST be installed separately:
+#   macOS:  https://www.freecad.org/downloads.php
+#   Ubuntu: sudo apt install freecad
+#   conda:  conda install -c conda-forge freecad
+#
+# To run macros, use the FreeCAD binary directly (see README.md):
+#   /Applications/FreeCAD.app/Contents/MacOS/FreeCAD script.py
+# Or after running Setup-FreeCAD-Env.sh:
+#   ./Run-Macro.sh script.py
+# ============================================================
+
+# Numerical and engineering math
+numpy>=1.26
+scipy>=1.13
+
+# Optional: plot temperature matrices and clearance graphs
+matplotlib>=3.9

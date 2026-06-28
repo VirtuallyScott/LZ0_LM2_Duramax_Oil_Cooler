@@ -1,0 +1,145 @@
+# ============================================================
+# Archives
+# ============================================================
+*.7z
+*.rar
+*.tar.gz
+*.tgz
+*.zip
+
+# ============================================================
+# Build output & compiled files
+# ============================================================
+*.a
+*.app
+*.dll
+*.dylib
+*.elf
+*.exe
+*.ko
+*.o
+*.out
+*.so
+build/
+dist/
+out/
+target/
+
+# ============================================================
+# Dependency directories
+# ============================================================
+.pnp
+.pnp.js
+node_modules/
+vendor/
+
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+.Python
+*.egg-info/
+.pytest_cache/
+
+# ============================================================
+# Editors & IDEs
+# ============================================================
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+auto-save-list
+tramp
+
+# JetBrains
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim / Neovim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+*.swn
+*.swo
+*.swp
+.netrwhist
+Session.vim
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+
+# ============================================================
+# Environment & secrets
+# ============================================================
+.env
+.env.*
+!.env.example
+*.key
+*.p12
+*.pem
+*.pfx
+secrets/
+
+# ============================================================
+# Linux
+# ============================================================
+*~
+.nfs*
+
+# ============================================================
+# Logs & temp files
+# ============================================================
+*.bak
+*.log
+*.orig
+*.rej
+*.temp
+*.tmp
+logs/
+temp/
+tmp/
+
+# ============================================================
+# macOS
+# ============================================================
+._*
+.AppleDouble
+.com.apple.timemachine.donotpresent
+.DS_Store
+.DS_Store?
+.fseventsd
+.LSOverride
+.Spotlight-V100
+.Trashes
+.VolumeIcon.icns
+Icon
+
+# Thumbnails
+ehthumbs.db
+ehthumbs_vista.db
+
+# ============================================================
+# Windows
+# ============================================================
+$RECYCLE.BIN/
+*.cab
+*.lnk
+*.msi
+*.msix
+*.msm
+*.msp
+Desktop.ini
+Thumbs.db
+Thumbs.db:encryptable
